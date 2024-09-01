@@ -17,10 +17,10 @@
 <p>Se le dan los estilos al cuerpo, a los botones y las imágenes; modificando su color y tamaño.</p>
 
 <h3>🟨 JAVASCRIPT</h3>
-<p>Se llama a la API localStorage, para obtener la puntuación (victorias, empates y derrotas), la cual contendrá esos valores en el caso de que el jugador haya jugado antes.En el caso de que no haya jugado, se crean esas puntuaciones a cero.</p>
-<p>Luego se crea una funcion que recibirá como argumento el valor de las tres opciones del juego que haya elegido el participante. Dentro de la funcion se llama a otra funcion, la cual generará un valor aleatorio y se asigna como piedra, papel o tijera, este servirá para la opción de la computadora, y se guarda en una constante.</p>
-<p>A través de condiciones se compara según lo que haya elegido el jugador y la computadora, y el resultado del juego se guarda en una variable. ademas según este resultado, se suma un punto a la Puntuación (por ej: si jugador-> Piedra - Tijera <-computadora, se suma victoria++). Luego se guarda el resultado en el localStorage, utilizando la conversión a cadena JSON</p>
-<p>Luego se muestra en pantalla el resultado, qué eligio (el jugador y la computadora) y la puntuación</p>
-<P>Por último, se define una función "reseteo", la cual da funcionalidad al boton "Resetear", la cual reestablece las puntuaciones a cero, guarda este valor en el localStorage.</P>
+<p>Se llama a la API localStorage, para obtener la puntuación (victorias, empates y derrotas), la cual contendrá esos valores en el caso de que el jugador haya jugado antes. En el caso de que no haya jugado, se crean esas puntuaciones a cero.</p>
+<p>Luego se crea una funcion que recibirá como argumento el valor de las tres opciones del juego que haya elegido el participante. Dentro de la funcion, se llama a otra funcion, la cual generará un valor aleatorio y se asigna como piedra, papel o tijera, este servirá para la opción de la computadora, y se guarda en una constante.</p>
+<p>A través de condiciones se compara según lo que haya elegido el jugador y la computadora, y el resultado del juego se guarda en una variable. Ademas según este resultado, se suma un punto a la Puntuación (por ej: si jugador-> Piedra - Tijera <-computadora, se suma victoria++). Luego se guarda el resultado en el localStorage, utilizando la conversión a cadena JSON</p>
+<p>Luego se muestra en pantalla el resultado, qué eligió cada uno(el jugador y la computadora) y la puntuación</p>
+<P>Por último, se define una función "reseteo", la cual da funcionalidad al boton "Resetear", la cual reestablece las puntuaciones a cero, y guarda este valor en el localStorage.</P>
 
 
