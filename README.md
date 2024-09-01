@@ -16,3 +16,9 @@
 <h3>🔷 CSS</h3>
 <p>Se le dan los estilos al cuerpo, a los botones y las imágenes; modificando su color y tamaño.</p>
 
+<h3>🟨 JAVASCRIPT</h3>
+<p>Se llama a la API localStorage la puntuación (victorias, empates y derrotas), la cual contendrá esos valores en el caso de que el jugador haya jugado antes</p>
+<p>En el caso de que no haya jugado, se crean esas puntuaciones a cero.</p>
+<p>Luego se crea una funcion que recibirá como argumento el valor de las tres opciones del juego que haya elegido el participante</p>
+<p></p>
+
