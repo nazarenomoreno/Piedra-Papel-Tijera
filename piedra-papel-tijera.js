@@ -1,24 +1,14 @@
-
-
 let puntuacion = JSON.parse(localStorage.getItem('puntuacion')) || {     // obtener puntuación de localStorage al cargar la página o inicializar
   victorias:0,
   perdidas:0,
   empates:0
 }                        
 
-
-
-
-
 document.querySelector('.js-puntuacion').innerHTML=`Victorias: ${puntuacion.victorias}. Empates: ${puntuacion.empates}. Perdidas: ${puntuacion.perdidas}`;
-      
 
 
 function Juego(yo) {
-
-
   const computer = generadorAleatorio();                             // se guarda el valor retornado en computer                            
-
   let resultado='';                                                  // let porque su valor cambiará al menos una vez durante la ejecución
 
   if (yo=='Piedra'){
@@ -31,8 +21,6 @@ function Juego(yo) {
     } else if(computer==='Tijera'){
       resultado='¡Has ganado!'
     }
-  
-  
   }
 
   if (yo=='Papel'){
@@ -62,9 +50,7 @@ function Juego(yo) {
 
     } else if(computer==='Papel'){
      resultado='¡Has ganado!'
-    }
-  
-       
+    }   
   }
 
   
@@ -90,15 +76,6 @@ function Juego(yo) {
   <img src="imagenes/${computer}.png" class="icono">
   Computadora`
   document.querySelector('.js-puntuacion').innerHTML=`Victorias: ${puntuacion.victorias}. Empates: ${puntuacion.empates}. Perdidas: ${puntuacion.perdidas}`;
-      
-
-
-
-
-
-
-  /*alert(`Tu has elegido ${yo}, la computadora ha elegido ${computer}. ${resultado}. 
-  Victorias: ${puntuacion.victorias}. Empates: ${puntuacion.empates}. Perdidas: ${puntuacion.perdidas}`);*/
 
 }
 
@@ -123,9 +100,6 @@ function generadorAleatorio() {
 
 function reseteo(){
   puntuacion.victorias=0; puntuacion.empates=0; puntuacion.perdidas=0;
-
   localStorage.removeItem('puntuacion');           //eliminamos del localstorage lo que hay guardado bajo la clave puntuacion
-
-  
   document.querySelector('.js-puntuacion').innerHTML=`Victorias: ${puntuacion.victorias}. Empates: ${puntuacion.empates}. Perdidas: ${puntuacion.perdidas}`;
 }
