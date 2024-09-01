@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+
+  <title>Rock Paper Scissors</title>
+
+  <link rel="stylesheet" href="piedra-papel-tijera.css">
+
+
+</head>
+
+
+
+<body>
+
+  <!-- El juego funciona de esta manera, una vez que apretemos un boton el juego 'corre' hasta terminar, y queda finalizado hasta apretar de nuevo un boton-->
+
+
+  <h2 class="titulodeljuego">Piedra Papel Tijera</h2>
+
+
+  <button class="botondeljuego" onclick="Juego('Piedra')">
+    <img src="imagenes/piedra.png"  class="icono">
+  </button>
+
+  <button class="botondeljuego"  onclick="Juego('Papel')">
+    <img src="imagenes/papel.png"   class="icono">
+  </button>
+
+  <button class="botondeljuego"  onclick="Juego('Tijera')">
+    <img src="imagenes/tijera.png"   class="icono">
+  </button>
+
+  
+  <p class="js-comosalio css-comosalio"></p>
+  <p class="js-queeligiocadauno"></p>
+  <p class="js-puntuacion css-puntuacion "></p>
+
+  <button class="botonreseteo" onclick="reseteo();" > Resetear </button>
+  
+  
+  
+  <script src="piedra-papel-tijera.js"> </script>
+
+
+</body>
+</html>
