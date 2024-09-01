@@ -1,5 +1,5 @@
 
-<h3>Piedra, Papel o Tijera</h3>
+<h2>Piedra, Papel o Tijera</h2>
 
 <h3>HTML</h3>
 <p>
