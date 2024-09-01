@@ -1,7 +1,7 @@
 
 <h2>Piedra, Papel o Tijera</h2>
 
-<h3> ## 🔶 HTML</h3>
+<h3>🔶 HTML</h3>
 <p>El juego contiene tres botones principales, los cuales tienen las tres imágenes (piedra, papel y tijera). Estos botones los presiona el jugador eligiendo entre piedra, papel o tijera.</p>
 
 <p>Debajo, se definen tres párrafos vacíos que se utilizarán posteriormente:</p>
@@ -13,6 +13,6 @@
 
 <p>Por debajo de estos párrafos, habrá un botón llamado "Resetear", que al presionarlo hará volver las puntuaciones a cero.</p>
 
-
-
+<h3>🔷 CSS</h3>
+<p>Se le dan los estilos al cuerpo, a los botones y las imágenes; modificando su color y tamaño.</p>
 
