@@ -23,4 +23,4 @@
 <p style="font-size: 0.9em;">Luego se muestra en pantalla el resultado, qué eligió cada uno (el jugador y la computadora) y la puntuación.</p>
 <p style="font-size: 0.9em;">Por último, se define una función "reseteo", la cual da funcionalidad al botón "Resetear", la cual reestablece las puntuaciones a cero, y guarda este valor en el localStorage.</p>
 
-
+https://nazarenomoreno.github.io/Piedra-Papel-Tijera/
